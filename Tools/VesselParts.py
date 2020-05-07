@@ -2,8 +2,6 @@ import krpc
 import numpy as np
 from collections import namedtuple, defaultdict
 
-
-
 conn = krpc.connect()
 KSC = conn.space_center
 vessel = KSC.active_vessel
