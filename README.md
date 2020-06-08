@@ -1,4 +1,4 @@
-# My kRPC Mission Scripts for KSP
+# My kRPC Mission Scripts for Kerbal Space Program
 
 * Status: In Development
 
