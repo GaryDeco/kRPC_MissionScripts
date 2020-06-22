@@ -3,6 +3,7 @@
 import krpc
 import math
 import time
+from _misscon import *
 
 conn = krpc.connect(name='Main')
 KSC = conn.space_center
