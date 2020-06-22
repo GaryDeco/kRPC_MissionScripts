@@ -1,4 +1,4 @@
-'''Main script'''
+'''Main running script'''
 
 import krpc
 import math
