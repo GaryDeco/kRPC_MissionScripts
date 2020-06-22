@@ -5,9 +5,9 @@ conn = krpc.connect()
 KSC = conn.space_center
 vessel = KSC.active_vessel
 
-class DvMap(object):
+class DvMap(object):#TODO expand to return DV between any two bodies. 
     '''Object containing delta v data traveling from kerbin to any of the stock celestial bodies\n
-       Note: Dv values assume ideal conditions, these are the absolute minimums!\n
+       Note: These are the absolute minimums!\n
 
        Structure:\n
        - DVMap contains a dictionary of the stock planets/moons\n

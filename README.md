@@ -14,14 +14,14 @@ A little disorganized at this point.
 * Jupyter folder contains some of my old scripts for calling streams and other experiments to get familiar with the Space Center api. Written using jupyter notebooks. 
 * Tests folder is simply a location for tests and error handling
 * Tools folder contains a few tools and helpers to simplify script development. The following are few already added...
-  * DV_map class which can return the DV to any stock body from Kerbin to help compare with rocket design. 
+  * DV_map class which can return the minimum required DV to any stock body from Kerbin to help  with rocket design. 
   * Conversions for universal or met time. 
   * Vessel info methods like part list calls, engine data, etc... (In development)
 
 ### Plans ###
 
 * Add build diagram / PID for atmospheric drone. 
-* Complete full lauch demo with reusable booster landing on KSC launchpad. 
+* Complete full lauch demo with reusable booster. 
 * Incorporate a simplified mission planning script and flight checks for failure mitigation. 
 * Full flight simulation with visualization and data output for desired destination that is reasonably accurate. 
 
